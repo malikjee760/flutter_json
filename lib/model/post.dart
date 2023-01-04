@@ -8,3 +8,11 @@ Future<List> getjsonData() async {
 
   return jsonDecode(response.body);
 }
+
+// Future<Map<String , dynamic>> getjasonData() async {
+//   String url = 'https://api.androidhive.info/contacts/';
+//
+//   http.Response response = await http.get(Uri.parse(url));
+//
+//   return jsonDecode(response.body);
+// }
